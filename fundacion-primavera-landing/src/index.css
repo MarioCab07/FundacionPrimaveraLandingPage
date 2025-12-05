@@ -1,0 +1,25 @@
+:root {
+
+  background-color: #242424;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+
+}
+
+.carousel-item img {
+  height: 1000px;      /* ajusta la altura que desees */
+  object-fit: cover;  /* hace que la imagen se recorte sin deformarse */
+}
+
+.carousel-indicators li {
+  background-color: #bfbfbf;     /* gris suave */
+}
+
+.carousel-indicators .active {
+  background-color: #6f6f6f;     /* gris más oscuro para activo */
+}
+
+a{
+  color:black
+}
